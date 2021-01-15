@@ -91,7 +91,7 @@ public class LoginThread extends Thread {
                 PreparedStatement pstmt=null;
                 String sql="";
                 try {
-                    String url = "jdbc:oracle:thin:@localhost:1521:orclhc";
+                    String url = "jdbc:oracle:thin:@localhost:1521:orcl";
                     String username_db = "opts";
                     String password_db = "opts1234";
                     Connection conn = DriverManager.getConnection(url, username_db, password_db);
